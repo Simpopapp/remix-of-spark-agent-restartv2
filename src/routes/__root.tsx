@@ -78,20 +78,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Novo app" },
-      {
-        name: "description",
-        content:
-          "Studio OS: workspace criador com geração de imagem local, teaser de vídeo, documentos, brand angles e checklist de publish com SEO e acessibilidade.",
-      },
-      { name: "author", content: "Studio OS" },
-      { name: "theme-color", content: "#0a0a0b" },
-      { property: "og:title", content: "Studio OS — workspace criador" },
-      {
-        property: "og:description",
-        content: "Imagem, vídeo, documentos, brand e publish num só fluxo.",
-      },
+      { name: "description", content: "Novo app em construção." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:card", content: "summary" },
     ],
     links: [
       {
