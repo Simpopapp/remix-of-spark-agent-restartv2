@@ -10,5 +10,8 @@
       "enabled": true
     }
   },
-  "model": "opencode/big-pickle"
+  "model": "opencode/big-pickle",
+  "instructions": [
+    ".opencode/AGENT_RULES.md"
+  ]
 }
